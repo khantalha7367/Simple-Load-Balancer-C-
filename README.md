@@ -21,9 +21,14 @@ The load balancer:
 It uses the built‑in `HttpClient` and the [YARP Reverse Proxy](https://microsoft.github.io/reverse-proxy/)
 package for simplicity.
 
-> ⚠️ This is not production‑grade. There’s no health checking, TLS support, or
-> advanced routing. It’s purely for educational purposes.
-> Will be working on it in the future and make it more Prod ready
+It also uses the following packages (Name, Version):
+
+> Microsoft.AspNetCore.Authentication.JwtBearer      8.0.0       
+> NetEscapades.AspNetCore.SecurityHeaders            1.3.1       
+> Serilog.Extensions.Hosting                         8.0.0       
+> System.IdentityModel.Tokens.Jwt                    8.16.0      
+> Yarp.ReverseProxy                                  2.3.0       
+
 
 ## 🛠️ Prerequisites
 
