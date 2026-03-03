@@ -13,6 +13,11 @@ The load balancer:
 - Uses a **round‑robin** strategy to forward each request to the next server.
 - Relays responses back to the original client.
 
+- In the latest commit further features such as Jwt Authentication
+- Serilog logging service
+- Security Headers
+- Rate Limiters
+
 It uses the built‑in `HttpClient` and the [YARP Reverse Proxy](https://microsoft.github.io/reverse-proxy/)
 package for simplicity.
 
